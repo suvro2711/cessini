@@ -1,0 +1,15 @@
+.sendpage{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    
+}
+
+.sendpageSVG{
+    position: relative;
+    width: 30%;
+    height: 30%;
+    top: 20%;
+}

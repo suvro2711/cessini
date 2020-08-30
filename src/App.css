@@ -1,0 +1,52 @@
+.primaryWindow{
+  width: 100vw;
+  height: 48.12vw;
+  background-color: rgb(236, 230, 215);
+  overflow: hidden;
+}
+
+.top{
+  width: 100%;
+  height: 100%;
+}
+
+.low{
+  width: 100%;
+  height: 100%;
+}
+.midBodies{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 10%;
+}
+
+.mailEditor{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  z-index: 11;
+}
+
+.midButtons{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+}
+
+.mailEditorButtons{
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  /* border-color: blueviolet;
+  border-style: solid; */
+  bottom:6% ;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+
+
