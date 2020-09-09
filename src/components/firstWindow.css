@@ -116,3 +116,17 @@
     height: 0%;
     display: "grid";
 }
+
+.sendBack{
+    width: 120%;
+    height: 120%;
+    min-width:130px ;
+    min-height: 130px;
+}
+
+.mailBack{
+    width: 120%;
+    height: 120%;
+    min-width:130px ;
+    min-height: 130px;
+}

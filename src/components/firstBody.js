@@ -1,6 +1,9 @@
 import React, {useRef, useEffect} from 'react';
 import {useSpring, animated, config } from 'react-spring'
 import "./firstWindow.css"
+import {useHistory} from 'react-router-dom'
+import {newTempalte,madeSelect} from '../actions'
+import {connect} from 'react-redux'
 
 
 const trans = (x,y,z) => `scaleX(${x}) scaleY(${y}) rotateY(${z}deg)`
@@ -8,16 +11,17 @@ const disp = (x) => `${x}`
 
 
 function FirstBody({handelDic}) {
-    let activeDic = {sendActive:false, mailActive:false}
+    const { push } = useHistory()
+    // let activeDic = {sendActive:false, mailActive:false}
 
-    function activechecker (sendAct, mailAct) {
-        if(sendAct){
-        activeDic.sendActive = true
-        }
-        if(mailAct){
-        activeDic.mailActive = true
-        }
-    }
+    // function activechecker (sendAct, mailAct) {
+    //     if(sendAct){
+    //     activeDic.sendActive = true
+    //     }
+    //     if(mailAct){
+    //     activeDic.mailActive = true
+    //     }
+    // }
 
  const [propsFirst, setFirst] = useSpring(() => ({ x: [1,1,0], config: { mass: 5, tension: 350, friction: 40 } }))
  const [propsSecond, setSecond] = useSpring(() => ({ x: [1,1,0], config: { mass: 5, tension: 350, friction: 40 } }))
@@ -37,6 +41,7 @@ function FirstBody({handelDic}) {
         <div className="secondWindow">
             <div className="secondWindowfirst  Back">
                 <animated.svg style={{ transform: propsFirst.x.interpolate(trans), opacity: firstFlip.opacity }}
+                    className="sendBack"
                     xmlns="http://www.w3.org/2000/svg"
                     width="794.286"
                     height="962.857"
@@ -67,6 +72,7 @@ function FirstBody({handelDic}) {
             </div>
             <div className="secondWindowSecond Back">
                 <animated.svg
+                    className="mailBack"
                     style={{ transform: propsSecond.x.interpolate(trans), opacity: secondFlip.opacity }}
                     xmlns="http://www.w3.org/2000/svg"
                     width="794.286"
@@ -155,7 +161,7 @@ function FirstBody({handelDic}) {
                 >
                     <svg 
                         className="createMailSVG"  
-                        height={137.926} width={179.201} viewBox="-2 -20 170.623 170.48" >
+                        height={137.926} width={179.201} viewBox="-2 -20 180.623 170.48" >
                         <defs>
                             <radialGradient
                             r={39.789}
@@ -242,29 +248,33 @@ function FirstBody({handelDic}) {
             style={{ display:dumpThridWindow.display}}
         >
             <div className="thirdWindowfirst  cover"
-                onMouseEnter={() => {
-                    setFirstText({x: "22%"});
-                    setFirst({ x: [1.1,1.1,0]})}
-                }
-                onMouseLeave={() => {
-                    setFirstText({ x: "0%" });
-                    setFirst({ x: [1,1,0] })  
-                }}
-                onClick={() => {
-                    setFirstText({ x: "0%" });
-                    setFirst({ x: [15,1.5,0] });
-                    setFirstFlip({opacity:0});
-                    setRight({ x: [0,0,0], delay:200 });
-                    setSecondText({ x: "0%" });
-                    setSecond({ x: [0,0,0], delay:200});
-                    setThird({display:"None"});
-                    planeSush({transform:"translate(87%,-135%) scale(0.12)",bg1:"#ffffff", delay:200});
-                    planeVanish({opacity:0, delay:800});
-                    handelDic({activeSend:true, activeMail:false})
-                }}
+            onMouseEnter={() => {
+                setFirstText({x: "22%"});
+                setFirst({ x: [1.1,1.1,0]})}
+            }
+            onMouseLeave={() => {
+                setFirstText({ x: "0%" });
+                setFirst({ x: [1,1,0] })  
+            }}
+            onClick={() => {
+                setFirstText({ x: "0%" });
+                setFirst({ x: [15,1.5,0] });
+                setFirstFlip({opacity:0});
+                setRight({ x: [0,0,0], delay:200 });
+                setSecondText({ x: "0%" });
+                setSecond({ x: [0,0,0], delay:200});
+                setThird({display:"None"});
+                planeSush({transform:"translate(87%,-135%) scale(0.12)",bg1:"#ffffff", delay:200});
+                planeVanish({opacity:0, delay:800});
+                handelDic({activeSend:true, activeMail:false})
+                setTimeout(() => {
+                    push('/sendPage')
+                },780)
                 
-            >
-            </div>
+            }}
+            
+        >
+        </div>
             <div className="thirdWindowSecond cover"
                 onMouseEnter={() => {
                     setSecondText({x: "22%"});
@@ -285,13 +295,21 @@ function FirstBody({handelDic}) {
                     mailSush({transform:"translate(-84%,-135%) scale(0.12)",bg2:"#ffffff",bg1:"#ffffff", delay:200});
                     mailVanish({opacity:0, delay:800});
                     handelDic({activeSend:false, activeMail:true})
+                    setTimeout(() => {
+                        push('/mailEditor')
+                    },780)
+                   
                 }}
             >
             </div>
+        
         </animated.div>
 
     </div>
   );
 }
 
-export default FirstBody;
+const mapStateToProps = (state) =>{
+    return state
+  }
+export default connect(mapStateToProps,{newTempalte,madeSelect})(FirstBody);

@@ -1,33 +1,26 @@
-.lowButtonWrapper{
-  width: 60%;
-  height: 100%;
-  /* border-color: blue;
-  border-style: solid; */
-  display: flex;
-  justify-content: space-evenly;
-  align-content: center;
+.primaryWindow{
+  width: 100vw;
+  height: 48.12vw;
+  background-color:ghostwhite;
+  overflow: hidden;
 }
 
-.buttons{
-  width: 8%;
+.top{
+  width: 100%;
   height: 100%;
-  /* border-color: blue;
-  border-style: solid; */
-  display: flex;
-  justify-content: center;
-  align-content: center;
 }
 
-.createMailButton{
-  width: 15.5%;
+.low{
+  width: 100%;
   height: 100%;
-  /* border-color: blue;
-  border-style: solid; */
-  display: None;
-  justify-content: center;
-  align-content: center;
 }
-/* 
+.midBodies{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 10%;
+}
+
 .templateNameInput{
   width: 100%;
   height: 900%;
@@ -42,10 +35,6 @@
 .Inputbox{
   width: 30%;
   height: 30%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 1; 
   position: relative;
   top: 0%;
  
@@ -71,11 +60,11 @@ input:focus, textarea {
   height: 100%;
 }
 
-::placeholder { 
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   font-style:oblique;
   font-weight: 600;
   color: whitesmoke;
-  opacity: 1;
+  opacity: 1; /* Firefox */
 }
 
 .InputSaveButtonSVG{
@@ -88,4 +77,36 @@ input:focus, textarea {
   width: 25%;
   top: -37%;
   left: 38%;
-} */
+}
+
+.mailEditor{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  z-index: 11;
+}
+
+.midButtons{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+}
+
+.mailEditorButtons{
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  /* border-color: blueviolet;
+  border-style: solid; */
+  bottom:6% ;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+
+
+
+

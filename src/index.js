@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './components/App';
 import * as serviceWorker from './serviceWorker';
-
+import {Provider} from 'react-redux';
+import {createStore} from 'redux';
+import reducers from './reducers'
+import {HashRouter, Route, Switch, withRouter} from 'react-router-dom'
 
 ReactDOM.render(
   <React.Fragment>
-    <App />
+    <Provider store={createStore(reducers)}>
+      <HashRouter>
+        <App></App>
+      </HashRouter>
+    </Provider>
   </React.Fragment>,
   document.getElementById('root')
 );

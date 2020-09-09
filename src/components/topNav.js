@@ -5,9 +5,6 @@ import './topnav.css';
 
 
 function TopNav({activeDic}) {
-    useEffect(() =>{
-      
-    })
 
     let noneActive = !(activeDic.activeSend||activeDic.activeMail)
 
