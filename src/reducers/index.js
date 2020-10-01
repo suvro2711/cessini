@@ -1,28 +1,55 @@
-import {combineReducers} from 'redux';
+import { combineReducers } from 'redux';
+import { ActionTypes } from '../actions'
+
+let lastCamp = 0
+
+const initialUser = {
+    username: "",//string
+    password: "", //string
+    email: "",    //string
+    id: 0, //number
+    token: ""//string
+}
 
 
-const addTemplateReducer = (tempList=[], action) => {
-    if (action.type === "ADD_TEMPLATE"){
-        return [...tempList,action.payload]
+const storeUser = (user = initialUser, action) => {
+    if (action.type === ActionTypes.STORE_USER) {
+        return action.payload
     }
-        return tempList
+    return user
 };
 
-const loadTemplateReducer = (loadTempList=[], action) => {
-    if (action.type === "ADD_TEMPLATE"){
-        return [...loadTempList,action.payload]
+const storeCampaign = (campaigns = [], action) => {
+    if (action.type === ActionTypes.STORE_ALL_CAMPAIGNS) {
+        return action.payload
     }
-        return loadTempList
+    return campaigns
+};
+
+const loadCampaign = (loadedCamp = { campId: 0, campName: "" }, action) => {
+    if (action.type === ActionTypes.LOAD_CAMPAIGN) {
+        return action.payload
+    }
+    return loadedCamp
+};
+
+const storeEmailList = (emailList = [], action) => {
+    if (action.type === ActionTypes.STORE_ALL_EMAIL_LIST) {
+        return action.payload
+    }
+    return emailList
 };
 
 
+const rootReducer = combineReducers({
+    userData: storeUser,
+    campaigns: storeCampaign,
+    emailList: storeEmailList,
+    loadedCampaign: loadCampaign
 
-export default combineReducers({
-    loadTemplate:loadTemplateReducer,
-    templates:addTemplateReducer
 });
 
-
+export default rootReducer
 
 
 

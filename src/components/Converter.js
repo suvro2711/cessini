@@ -1,117 +1,236 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="58.043407mm"
-   height="22.482498mm"
-   viewBox="0 0 58.043407 22.482498"
-   version="1.1"
-   id="svg1567"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="templateButtonSave.svg">
-  <defs
-     id="defs1561">
-    <inkscape:path-effect
-       effect="bspline"
-       id="path-effect1506"
-       is_visible="true"
-       lpeversion="1"
-       weight="33.333333"
-       steps="2"
-       helper_size="0"
-       apply_no_weight="true"
-       apply_with_weight="true"
-       only_selected="false" />
-    <rect
-       id="rect953"
-       height="20.410713"
-       width="34.017857"
-       y="78.619049"
-       x="33.261906" />
-    <rect
-       id="rect2148"
-       height="20.410713"
-       width="34.017857"
-       y="78.619049"
-       x="33.261906" />
-  </defs>
-  <sodipodi:namedview
-     fit-margin-bottom="0"
-     fit-margin-right="0"
-     fit-margin-left="0"
-     fit-margin-top="0"
-     inkscape:snap-others="false"
-     inkscape:snap-nodes="false"
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="1.6290957"
-     inkscape:cx="134.46954"
-     inkscape:cy="38.48108"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
-     inkscape:document-rotation="0"
-     showgrid="false"
-     inkscape:window-width="1366"
-     inkscape:window-height="705"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
-  <metadata
-     id="metadata1564">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     transform="translate(-114.01571,-137.98521)"
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1">
-    <rect
-       style="fill:#666666;fill-opacity:0.568548;stroke:none;stroke-width:0.281413;stroke-opacity:1"
-       id="rect848"
-       width="57.718586"
-       height="21.874786"
-       x="114.34053"
-       y="138.59293"
-       ry="10.937393" />
-    <rect
-       ry="10.937393"
-       y="137.98521"
-       x="114.01571"
-       height="21.874786"
-       width="57.718586"
-       id="rect883"
-       style="fill:#ff0e0e;fill-opacity:1;stroke:none;stroke-width:0.281413;stroke-opacity:1" />
-    <path
-       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0696926px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 123.3907,148.07899 c 1.68575,-0.97327 5.05718,-2.91977 8.42864,-4.86628 0.16737,-0.0223 0.33479,-0.0445 0.47146,-0.003 0.13666,0.0419 0.25501,0.16023 0.31729,0.29107 0.0623,0.13085 0.0747,0.28037 -0.18694,1.91274 -0.26169,1.63237 -0.79749,4.74748 -1.09034,6.34245 -0.29284,1.59498 -0.34264,1.66968 -0.42364,1.74444 -0.081,0.0748 -0.19312,0.14951 -0.31769,0.17443 -0.12457,0.0249 -0.26162,0 -0.76006,-0.21183 -0.49845,-0.21183 -1.35822,-0.61057 -1.7943,-0.80996 -0.43608,-0.19939 -0.44858,-0.19939 -0.68541,0.0997 -0.23684,0.29907 -0.69787,0.89717 -0.972,1.22115 -0.27414,0.32397 -0.36135,0.37381 -0.46661,0.39256 -0.10527,0.0188 -0.23111,0.006 -0.31834,-0.0187 -0.0872,-0.0249 -0.13705,-0.0623 -0.18688,-0.11208 -0.0498,-0.0498 -0.0997,-0.11216 -0.11856,-0.47977 -0.0188,-0.36761 -0.006,-1.06539 1e-4,-1.4143 0.006,-0.3489 0.006,-0.3613 0.88472,-1.42054 0.87849,-1.05924 2.63542,-3.16506 3.51389,-4.24284 0.87848,-1.07777 0.87848,-1.12767 0.8411,-1.13395 -0.0374,-0.006 -0.11211,0.0311 -1.19622,0.96566 -1.08412,0.93457 -3.17748,2.76626 -4.23657,3.66972 -1.0591,0.90346 -1.08405,0.87851 -1.50151,0.68532 -0.41747,-0.19319 -1.22739,-0.55454 -1.66354,-0.81619 -0.43615,-0.26164 -0.49845,-0.42363 -0.5095,-0.53486 -0.011,-0.11122 0.0484,-0.20038 0.10447,-0.26891 0.0561,-0.0685 0.11838,-0.13084 0.14953,-0.16199 0.0311,-0.0311 0.0312,-0.0311 1.71691,-1.00431 z"
-       id="path3346"
-       inkscape:path-effect="#path-effect1506"
-       inkscape:original-d="m 121.70496,149.05225 c 3.37153,-1.94645 10.11438,-5.83954 10.11438,-5.83954 0,0 0.33481,-0.0444 0.50212,-0.0668 0.11221,0.0998 0.22435,0.22436 0.33643,0.33644 0.0126,0.1496 0.025,0.29913 0.0374,0.44858 -0.53575,3.1153 -1.07155,6.23041 -1.60743,9.34551 -0.0498,0.0749 -0.0996,0.1496 -0.14953,0.22429 -0.11207,0.0749 -0.22422,0.1496 -0.33644,0.22429 -0.137,-0.0248 -0.27406,-0.0497 -0.4112,-0.0748 -0.85973,-0.39868 -1.7195,-0.79742 -2.57935,-1.19623 -0.0123,7e-5 -0.0248,7e-5 -0.0374,0 -0.46099,0.5982 -0.92202,1.1963 -1.38314,1.79435 -0.0872,0.0499 -0.17437,0.0998 -0.26167,0.14952 -0.12454,7e-5 -0.24914,-0.0249 -0.37382,-0.0374 -0.0498,-0.0373 -0.0996,-0.0747 -0.14953,-0.11215 -0.0497,-0.0622 -0.0996,-0.12454 -0.14953,-0.18691 0.0126,-0.67282 0.025,-1.37061 0.0374,-2.05602 7e-5,-0.0124 7e-5,-0.0248 0,-0.0374 1.75706,-2.10582 3.51398,-4.21164 5.27086,-6.31755 7e-5,-0.0497 7e-5,-0.0996 0,-0.14953 -0.0747,0.0375 -0.14946,0.0748 -0.22429,0.11214 -2.09336,1.83182 -4.18672,3.66351 -6.28018,5.49515 -0.0248,-0.0248 -0.0498,-0.0497 -0.0748,-0.0748 -0.80989,-0.3613 -1.61982,-0.72264 -2.42983,-1.08408 -0.0622,-0.16192 -0.12453,-0.3239 -0.18691,-0.48596 0.0375,-0.0622 0.0998,-0.14946 0.14953,-0.22429 0.0624,-0.0622 0.12467,-0.12454 0.18691,-0.18691 z" />
-    <text
-       transform="matrix(0.76545588,0,0,0.71133033,114.00833,87.729783)"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.1111px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect953);fill:#ffffff;fill-opacity:1;stroke:none;"
-       id="text951"
-       xml:space="preserve"><tspan
-         x="33.261719"
-         y="91.08401"><tspan>Send</tspan></tspan></text>
-  </g>
-</svg>
 
+                    <p className="signInText">Log In</p>
+                    <p className="emailText">Email</p>
+                    <p className="passText">Password</p>
+                    <svg className="signInBoxSVG"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="603.868"
+                        height="643.203"
+                        version="1.1"
+                        viewBox="0 0 159.773 170.181"
+                    >
+                        <defs>
+                            <path d="M23.435 201.083H155.727V271.387H23.435z"></path>
+                            <path d="M137.583 180.673H219.226V228.298H137.583z"></path>
+                            <path d="M133.804 176.893H199.572V219.226H133.804z"></path>
+                            <filter
+                                id="filter2371"
+                                width="1.162"
+                                height="1.15"
+                                x="-0.081"
+                                y="-0.075"
+                                colorInterpolationFilters="sRGB"
+                            >
+                                <feGaussianBlur stdDeviation="4.713"></feGaussianBlur>
+                            </filter>
+                            <path d="M137.583 180.673H219.226V228.298H137.583z"></path>
+                            <path d="M137.583 180.673H219.226V228.298H137.583z"></path>
+                            <filter
+                                id="filter2821"
+                                width="1.053"
+                                height="1.309"
+                                x="-0.026"
+                                y="-0.155"
+                                colorInterpolationFilters="sRGB"
+                            >
+                                <feGaussianBlur stdDeviation="1.188"></feGaussianBlur>
+                            </filter>
+                            <filter
+                                id="filter3213"
+                                width="1.103"
+                                height="1.604"
+                                x="-0.051"
+                                y="-0.302"
+                                colorInterpolationFilters="sRGB"
+                            >
+                                <feGaussianBlur stdDeviation="2.319"></feGaussianBlur>
+                            </filter>
+                        </defs>
+                        <g transform="translate(-103.432 -69.502)">
+                            <rect className="mainBackHalo"
+                                width="139.851"
+                                height="150.435"
+                                x="113.393"
+                                y="79.375"
+                                fill="#4d4d4d"
+                                strokeWidth="0.265"
+                                filter="url(#filter2371)"
+                                opacity="1"
+                                rx="15.875"
+                                ry="14.458"
+                                transform="translate(3.047 2.57) scale(.98338)"
+                            ></rect>
+                            <rect className="mainBack"
+                                width="139.851"
+                                height="150.435"
+                                x="114.499"
+                                y="78.357"
+                                fill="#fff"
+                                strokeWidth="0.265"
+                                rx="15.875"
+                                ry="14.458"
+                            ></rect>
+                            <g className="passInput" fillOpacity="1" transform="translate(1 .087)">
+                                <g className="passInputBack"
+                                    strokeWidth="0.029" >
+                                    <rect className="passInputBackHalo"
+                                        width="108.464"
+                                        height="18.432"
+                                        x="129.583"
+                                        y="158.819"
+                                        fill="#4d4d4d"
+                                        filter="url(#filter2821)"
+                                        opacity="0.764"
+                                        rx="7.311"
+                                        ry="6.172"
+                                    ></rect>
+                                    <rect className="passInputBackMain"
+                                        width="108.464"
+                                        height="18.432"
+                                        x="129.583"
+                                        y="158.819"
+                                        fill="#1ca7d1"
+                                        rx="7.311"
+                                        ry="6.172"
+                                    ></rect>
+                                </g>
+                                <g className="passInputText">
+                                    <rect className="passInputTextHalo"
+                                        width="92%"
+                                        height="20.432"
+                                        x="240.786"
+                                        y="245.151"
+                                        fill="#4d4d4d"
+                                        strokeWidth="0.029"
+                                        filter="url(#filter3213)"
+                                        opacity="0.799"
+                                        rx="46.536"
+                                        ry="9.216"
+                                        transform="matrix(.20752 0 0 .58624 82.095 18.327)"
+                                    ></rect>
+                                    <rect className="passInputTextMain"
+                                        width="18.5%"
+                                        height="11.331"
+                                        x="132.43"
+                                        y="162.116"
+                                        fill="#fff"
+                                        strokeWidth="0.01"
+                                        rx="2.2%"
+                                        ry="2%"
+                                    ></rect>
+                                </g>
+                            </g>
+                            <g className="emailInput" fillOpacity="1" transform="translate(1 -34.309)">
+                                <g className="emailInputBack" strokeWidth="0.029">
+                                    <rect className="emailInputBackHalo"
+                                        width="108.464"
+                                        height="18.432"
+                                        x="129.583"
+                                        y="158.819"
+                                        fill="#4d4d4d"
+                                        filter="url(#filter2821)"
+                                        opacity="0.764"
+                                        rx="7.311"
+                                        ry="6.172"
+                                    ></rect>
+                                    <rect className="emailInputBackMain"
+                                        width="108.464"
+                                        height="18.432"
+                                        x="129.583"
+                                        y="158.819"
+                                        fill="#1ca7d1"
+                                        rx="7.311"
+                                        ry="6.172"
+                                    ></rect>
+                                </g>
+                                <g className="emailInputText">
+                                    <rect className="emailInputTextHalo"
+                                        width="108.464"
+                                        height="18.432"
+                                        x="240.786"
+                                        y="246.151"
+                                        fill="#4d4d4d"
+                                        strokeWidth="0.029"
+                                        filter="url(#filter3213)"
+                                        opacity="0.799"
+                                        rx="46.536"
+                                        ry="9.216"
+                                        transform="matrix(.20752 0 0 .58624 82.095 18.327)"
+                                    ></rect>
+                                    <rect className="emailInputTextMain"
+                                        width="21.893"
+                                        height="11.331"
+                                        x="132.43"
+                                        y="162.116"
+                                        fill="#fff"
+                                        strokeWidth="0.01"
+                                        rx="4.257"
+                                        ry="3.538"
+                                    ></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    <div className="signupButtons">
+
+                        <ButtonPopRight contract={contract3}
+                            ref={emailRef}
+                            grow={{
+                                radius: 3.5, grow: 12, transRect: 12,
+                                SVG: 210, textWidth: 8.5, fontSize: .83, front: 48, text: "Sign up with Email", min: "30px"
+                            }} >
+
+                        </ButtonPopRight>
+                        <ButtonPopRight contract={contract2}
+                            ref={guestRef}
+                            grow={{
+                                radius: 3.5, grow: 12, transRect: 12,
+                                SVG: 210, textWidth: 8.5, fontSize: .83, front: 48, text: "Explore as Guest", min: "30px"
+                            }} >
+
+                        </ButtonPopRight>
+                        <ButtonPopRight contract={contract1}
+                            ref={googleRef}
+                            grow={{
+                                radius: 3.5, grow: 12, transRect: 12,
+                                SVG: 210, textWidth: 8.5, fontSize: .83, front: 48, text: "Sign up with Google", min: "30px"
+                            }} >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="40%"
+                                height="40%"
+                                version="1.1"
+                                viewBox="0 0 33.883 34.604"
+                            >
+                                <g transform="translate(-113.082 -182.27)">
+                                    <g fillOpacity="1">
+                                        <path
+                                            fill="#e94235"
+                                            strokeWidth="0.218"
+                                            d="M130.352 182.27c-9.463 0-17.134 7.73-17.134 17.266 0 9.536 7.671 17.266 17.134 17.266 8.601 0 15.132-5.804 16.357-14.124 0 0 .024-.178.035-.273l.04-.323c.075-.645.122-1.303.132-1.975.005-.362-.054-.9-.131-1.468v-1.787a.477.477 0 00-.478-.478H130.9a.477.477 0 00-.478.478v5.568c0 .265.213.478.478.478h8.9c-1.147 4.291-4.463 7.082-9.234 7.082-5.665 0-10.257-4.628-10.257-10.336 0-5.68 4.547-10.296 10.183-10.337h.074c2.407 0 4.737.854 6.582 2.41l4.82-4.873a17.062 17.062 0 00-11.617-4.574z"
+                                        ></path>
+                                        <path
+                                            fill="#4285f4"
+                                            strokeWidth="0.218"
+                                            d="M130.9 196.374a.477.477 0 00-.477.478v5.568c0 .265.213.478.478.478h8.9c-.614 2.298-1.851 4.165-3.6 5.404l5.344 4.336a16.658 16.658 0 005.164-9.96c.114-.899.235-1.579.256-2.571.003-1.319-.055-2.029-.18-3.255-.027-.264-.213-.478-.478-.478z"
+                                        ></path>
+                                        <path
+                                            fill="#34a853"
+                                            strokeWidth="0.218"
+                                            d="M120.817 202.818l-5.878 4.53c2.817 5.647 8.615 9.525 15.315 9.525 4.47 0 8.394-1.56 11.291-4.235l-5.344-4.336c-1.604 1.062-3.468 1.699-5.732 1.677-4.5-.043-8.183-2.999-9.652-7.16z"
+                                        ></path>
+                                        <path
+                                            fill="#fabb05"
+                                            stroke="none"
+                                            strokeLinecap="butt"
+                                            strokeLinejoin="miter"
+                                            strokeOpacity="1"
+                                            strokeWidth="0.265"
+                                            d="M115.008 191.838c-1.144 2.315-1.926 4.895-1.926 7.656 0 2.834.682 5.505 1.882 7.865l5.853-4.54a9.967 9.967 0 01-.511-3.207c0-1.172.247-2.166.533-3.287z"
+                                        ></path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </ButtonPopRight>
+                    </div>
 

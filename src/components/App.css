@@ -1,27 +1,26 @@
-.primaryWindow{
+.primaryWindow {
   width: 100vw;
-  height: 48.12vw;
-  background-color:ghostwhite;
+  height: 100vh;
   overflow: hidden;
 }
 
-.top{
+.top {
   width: 100%;
   height: 100%;
 }
 
-.low{
+.low {
   width: 100%;
   height: 100%;
 }
-.midBodies{
+.midBodies {
   position: absolute;
   width: 100%;
   height: 100%;
   top: 10%;
 }
 
-.templateNameInput{
+.templateNameInput {
   width: 100%;
   height: 900%;
   position: absolute;
@@ -29,57 +28,57 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
-.Inputbox{
+.Inputbox {
   width: 30%;
   height: 30%;
   position: relative;
   top: 0%;
- 
 }
 
-.Input{
+.Input {
   width: 50%;
   height: 23%;
-  border:none;
+  border: none;
   position: absolute;
   top: 36%;
   left: 40%;
-  background-color:transparent;
+  background-color: transparent;
   outline: none;
   color: white;
 }
 
-input:focus, textarea {
+input:focus,
+textarea {
   outline: none !important;
 }
-.InputboxSVG{
+.InputboxSVG {
   width: 100%;
   height: 100%;
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  font-style:oblique;
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-style: oblique;
   font-weight: 600;
   color: whitesmoke;
   opacity: 1; /* Firefox */
 }
 
-.InputSaveButtonSVG{
+.InputSaveButtonSVG {
   width: 100%;
   height: 100%;
 }
 
-.InputSaveButton{
+.InputSaveButton {
   position: relative;
   width: 25%;
   top: -37%;
   left: 38%;
 }
 
-.mailEditor{
+.mailEditor {
   position: relative;
   width: 100%;
   height: 100%;
@@ -87,26 +86,36 @@ input:focus, textarea {
   z-index: 11;
 }
 
-.midButtons{
+.midButtons {
   position: relative;
   width: 100%;
   height: 100%;
   top: 0%;
 }
 
-.mailEditorButtons{
+.mailEditorButtons {
   position: absolute;
   width: 100%;
   height: 10%;
   /* border-color: blueviolet;
   border-style: solid; */
-  bottom:6% ;
+  bottom: 6%;
   display: flex;
   justify-content: center;
   align-content: center;
 }
 
-
-
-
-
+.buttonHolder {
+  width: 60%;
+  height: 10%;
+  border-color: blue;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+}
+.check {
+  border-color: blue;
+  border-style: solid;
+}

@@ -1,38 +1,47 @@
 
-import React, { useRef, useEffect, useState,useCallback } from 'react';
+import React, { useRef, useEffect, useState, useCallback } from 'react';
 import { render, unmountComponentAtNode } from 'react-dom'
-import {HashRouter, Route, Switch, withRouter} from 'react-router-dom'
-import {useHistory} from 'react-router-dom'
-import {connect } from 'react-redux'
+import { HashRouter, Route, Switch, withRouter } from 'react-router-dom'
+import { useHistory } from 'react-router-dom'
+import { connect } from 'react-redux'
 import EmailEditor from 'react-email-editor';
-import {useSpring, animated, config } from 'react-spring'
+import { useSpring, animated, config } from 'react-spring'
 
-import {loadTempalteAct,newTempalte} from '../actions'
 import './App.css';
-import TopNav from './topNav';
-import LowNav from './lowNav';
-import FirstBody from './firstBody';
-import MailEditor from './mailEditor';
-import LowButtons from './lowButtons';
-import SendPage from './sendPage';
+// import TopNav from './topNav';
+// import LowNav from './lowNav';
+// import FirstBody from './firstBody.txt';
+// import MailEditor from './mailEditor';
+// import LowButtons from './lowButtons';
+// import SendPage from './sendPage';
+import SignMain from './signInPage/signMain';
+import DashBoard from './Dashboard/dashBoard';
+import ButtonPopRightLite from '../buttons';
 
-
-function App({loadTemplate,newTempalte}) {
-  const [activeDic, setActiveDic] = useState({activeSend:false, activeMail:false})
-  const [inputSaveButton, setinputSaveButton]=useSpring(() => ({transform:" rotateY(0deg) translate(0%,0%) scale(1)"}))
-  const [inputBox, setinputBox]=useSpring(() => ({width:"0%"}))
-  const {push} = useHistory()
+function App() {
+  const [activeDic, setActiveDic] = useState({ activeSend: false, activeMail: false })
+  const [contract, setContract] = useState(true)
+  const [inputSaveButton, setinputSaveButton] = useSpring(() => ({ transform: " rotateY(0deg) translate(0%,0%) scale(1)" }))
+  const [inputBox, setinputBox] = useSpring(() => ({ width: "0%" }))
+  const [button, setButton] = useSpring(() => ({ width: "5%", height: "10%" }))
+  const [round, setRound] = useSpring(() => ({ round1: "50%", round2: "50%", widthfont: "90%", xfront: "5%" }))
+  const [rest, setRest] = useSpring(() => ({ widthfont: "90%", xfront: "5%" }))
+  const { push } = useHistory()
 
   const emailEditorRef = useRef(null);
   const inputRef = useRef(null);
 
   const loadTheTemplate = (data) => {
-      emailEditorRef.current.editor.loadDesign(data)
+    emailEditorRef.current.editor.loadDesign(data)
   }
-
+  console.log("working")
   return (
-        <div className="primaryWindow">
-              <div className="top">
+    <div className="primaryWindow">
+      <Switch>
+        <Route path="/dashboard" render={() => <DashBoard></DashBoard>}></Route>
+        <Route path="/" render={() => <SignMain></SignMain>}></Route>
+      </Switch>
+      {/* <div className="top">
                 <TopNav activeDic={activeDic}></TopNav>
               </div>
               <div className="low">
@@ -161,12 +170,14 @@ function App({loadTemplate,newTempalte}) {
                     </animated.div>
                 </div>
               </animated.div>
-          </div>
-        </div>
+          </div> */}
+    </div>
   );
 }
 
-const mapStateToProps = (state) =>{
-  return state
-}
-export default connect(mapStateToProps,{loadTempalteAct,newTempalte})(App);
+// const mapStateToProps = (state) => {
+//   return state
+// }
+// export default connect(mapStateToProps, { loadTempalteAct, newTempalte })(App);
+
+export default App
