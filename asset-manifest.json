@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/cessini-mail/static/css/main.402abc36.chunk.css",
+    "main.js": "/cessini-mail/static/js/main.fbeb2553.chunk.js",
+    "main.js.map": "/cessini-mail/static/js/main.fbeb2553.chunk.js.map",
+    "runtime-main.js": "/cessini-mail/static/js/runtime-main.1ea3fd15.js",
+    "runtime-main.js.map": "/cessini-mail/static/js/runtime-main.1ea3fd15.js.map",
+    "static/js/2.011600f6.chunk.js": "/cessini-mail/static/js/2.011600f6.chunk.js",
+    "static/js/2.011600f6.chunk.js.map": "/cessini-mail/static/js/2.011600f6.chunk.js.map",
+    "index.html": "/cessini-mail/index.html",
+    "precache-manifest.8a08e8ccfaa24566baf7ab881de0505b.js": "/cessini-mail/precache-manifest.8a08e8ccfaa24566baf7ab881de0505b.js",
+    "service-worker.js": "/cessini-mail/service-worker.js",
+    "static/css/main.402abc36.chunk.css.map": "/cessini-mail/static/css/main.402abc36.chunk.css.map",
+    "static/js/2.011600f6.chunk.js.LICENSE.txt": "/cessini-mail/static/js/2.011600f6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1ea3fd15.js",
+    "static/js/2.011600f6.chunk.js",
+    "static/css/main.402abc36.chunk.css",
+    "static/js/main.fbeb2553.chunk.js"
+  ]
+}
